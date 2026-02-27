@@ -25,8 +25,8 @@ jobs:
       - name: Run tests and generate report
         run: pytest --junitxml=report.xml
 
-      - name: Upload Test Report
+      - name: Upload HTML Report
         uses: actions/upload-artifact@v3
         with:
-          name: junit-report
-          path: report.xml
+          name: html-report
+          path: report.html
