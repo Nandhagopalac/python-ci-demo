@@ -1,4 +1,4 @@
-name: Python CI - nandha
+name: Python CI - nandhagopal
 
 on:
   push:
